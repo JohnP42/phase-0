@@ -1,4 +1,4 @@
-# Think About Time
+# 1.1 Think About Time 
 
 The most useful time management and productivity I learned of through this research would be:
 
@@ -10,7 +10,7 @@ Time boxing is a method of using time intervals as milestones. For instance, the
 
 For phase 0, essentially I plan to Time Box the work I'm given; however, I find that I am extremely motivated to do the work in phase 0 as programming is my passion. So, I'll probably end up doing more than my allotted time box. 
 
-# The Command Line
+# 1.2 The Command Line
 
 A shell is essentially a user interface of an OS. So, the shell is what you see, it's the outside. While bash is a particular shell for Unix. The most difficult part of learning the command line is the amount of memorization and knowing when to apply certain commands. However, I successfully managed to use all the listed commands. The most important commands I found were pwd, ls, cd, and help. The first 3 are essential for navigation, while the help command is there incase you forget a certain command.
 
@@ -37,4 +37,33 @@ A shell is essentially a user interface of an OS. So, the shell is what you see,
 
 -help: tells what commands do.
 
-# Forking and Cloning
+# 1.4 Forking and Cloning
+
+To create a new repo:
+
+*navigate to your GitHub account.
+*click the repositories tab.
+*click new.
+*name the new repository and adjust an options.
+*click create.
+
+To fork a repo:
+
+*navigate to a repository you wish to fork from GitHub.
+*click the fork button at the top right.
+*click the profile you wish to fork to.
+*profit.
+
+To clone a repo:
+
+*navigate to a repository you wish to clone from GitHub.
+*look for the HTTPS clone url and copy that.
+*open your command line.
+*navigate to the directory you with to clone it to
+*type: git clone (paste url with on parenthesis)
+*hit enter.
+ 
+
+You would fork a repository if you wanted to make changes to that repository without altering the original. As opposed to creating a new one, which would be if you wanted to start a whole new repository.
+
+The struggle I had was actually a little bit unrelated, as I went on a tangent trying to figure out how to open Sublime Text through vagrant ssh.
