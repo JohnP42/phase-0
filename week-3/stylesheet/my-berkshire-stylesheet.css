@@ -1,0 +1,103 @@
+/*
+-What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+Relative path.
+
+-What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+We used text-align, display, width, font-size, float, margin, padding. It was fairly difficult to get it perfectly accurate.
+
+-What CSS did you use to modify the element style (like size, color, etc.)
+
+We used color, size, border, margin, padding.
+
+-Did you modify the HTML to include classes or ids? If so, which did you chose and why? If you didn't, how would you know which one to add to your HTML?
+
+Yes, we did when we needed something specific to change.
+
+-When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+The source code looks worse than mine because it only uses html, but I think that is because it is auto generated code.
+*/
+
+body {
+	color: #000080;
+	text-align: center;
+	background: url("http://images.nymag.com/news/intelligencer/intelposts100531_warren_560.jpg") no-repeat center fixed;
+	background-size: cover;
+}
+
+ul {
+	width: 30%;
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-right: 50px;
+	display: inline-block;
+	text-align: left;
+	float: left;
+}
+
+li {
+	margin-bottom: 30px;
+}
+
+a {
+	color: #800080;
+}
+
+a:visited {
+	color: #ff0000;
+}
+
+section {
+	clear:both;
+	border-bottom: 1px solid grey;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+
+span {
+	font-size: 10px;
+}
+
+.larger {
+	font-size: 32px;
+}
+
+.smaller {
+	font-size: 12px;
+}
+
+#geico{
+	font-size: 10px;
+}
+
+#contacts {
+	font-size: 13px;
+	text-align: left;
+}
+
+footer {
+	text-align: left;
+}
+
+footer p {
+	font-size: 10px;
+}
+
+footer span {
+	font-weight: bold;
+}
+
+h3 {
+	margin: 0;
+	text-transform: uppercase;
+}
+
+h4 {
+	margin: 0;
+}
+
+h5 {
+	margin: 0;
+}
