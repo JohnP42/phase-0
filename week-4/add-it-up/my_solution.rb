@@ -28,12 +28,7 @@ end
 
 # 3. total refactored solution
 def total(num_list)
-	result = 0
-	for i in 0..num_list.length - 1
-		result += num_list[i]
-	end
-
-	return result
+	return num_list.inject { |sum, n| sum + n }
 end
 
 
