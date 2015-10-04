@@ -1,0 +1,26 @@
+body *:hover {
+    background-color: orange;
+}
+
+.column-1 {
+    background-color: blue;
+    float:left;
+    width:49%;
+}
+.column-2 {
+    background-color:red;
+    float:right;
+    width:49%;
+    border: 2px solid black;
+}
+
+footer {
+    clear: both;
+    background-color: green;
+    text-align: center;
+}
+
+header {
+    background-color: yellow;
+    text-align: center;
+}
