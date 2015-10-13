@@ -6,9 +6,9 @@
 
 # Pseudocode
 
-# Input:
-# Output:
-# Steps:
+# Input: array
+# Output: die class
+# Steps: check for argument, then assign variable, make sides method, make roll method
 
 
 # Initial Solution
