@@ -123,3 +123,13 @@ class CreditCard
 end
 
 # Reflection
+#What was the most difficult part of this challenge for you and your pair?
+# => I think the hardest thing to do was making sure everything was clean
+# => and readable, and picking method names and deciding on whether to use
+# =>  bang! or not.
+
+#What new methods did you find to help you when you refactored?
+# => each_with_index
+
+#What concepts or learnings were you able to solidify in this challenge?
+# => Dividing code into methods, and working in small steps.
