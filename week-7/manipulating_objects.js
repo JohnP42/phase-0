@@ -32,13 +32,15 @@ adam.children = terah.children;
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
-//
-//
-//
-//
-//
-//
 
+//What tests did you have trouble passing? What did you do to make it pass? Why did that work?
+//  They all passed easily, just had to go back and add a semi-colon or two.
+
+//How difficult was it to add and delete properties outside of the object itself?
+//  It was fairly simple, though I was worried about deleting eyeColor even though it didn't exist.
+
+//What did you learn about manipulating objects in this challenge?
+//  That you can attempt to delete a non existent property, and establishing and changing a property uses the same syntax.
 
 // __________________________________________
 // Driver Code:  Do not alter code below this line.
