@@ -4,7 +4,15 @@
 // I worked on this challenge with: Eran Chazan.
 
 // Pseudocode
-
+/*
+input an number
+convert number to an backwards array
+make an empty array
+iterate through the number array
+add each element from number array to empty array
+IF the index is divisable by 3 and not the last index
+add a comma onto the no longer empty array
+return the formally empty array
 
 
 // Initial / refactored Solution
