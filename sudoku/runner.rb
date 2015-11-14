@@ -19,5 +19,7 @@ file='sudoku_puzzles.txt'
 File.readlines(file).each do |line|
   game = Sudoku.new(line.chomp)
   game.solve
+  
+  puts "SOLVED_______________________"
   puts game
 end
